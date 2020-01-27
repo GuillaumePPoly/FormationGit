@@ -15,7 +15,7 @@
 - git checkout [branch_name] {8_first_digits_of_commit} [branch_name] switche de branche vers la branche nommée {commit_SHA} transporte vers le commit spécifié
 - git add [file_name1] [file_name2] [folder] [etc.] : ajoute des fichiers ou des dossiers au commit futur
 - git commit {-m "Message"} {--amend} {--no-edit} : commit les fichiers ajoutés au dépôt local {-m} ajoute un message simple {--amend} modifie le dernier commit {--no-edit} utilisé pour ajouter des fichiers au dernier commit
-- git push : pousse les derniers commits locaux sur le dépôt distant
+- git push [-u] [remote_name --delete branch_name]: pousse les derniers commits locaux sur le dépôt distant, crée une branche ou supprime une branche sur le dépôt distant
 - git reflog : git log en plus poussé
 - git status : statut actuel du dépôt local
 - git stash {apply} {list} : crée une remise du code créé depuis le dernier commit {apply} applique la dernière remise
